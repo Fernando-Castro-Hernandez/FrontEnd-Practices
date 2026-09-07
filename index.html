@@ -3,11 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preload" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
     <title>Developer Page</title>
 </head>
 <body>
     <header>
-        <h1>Fernando Castro Developer</h1>        
+        <h1 class="my-title">Fernando Castro <span>Developer</span></h1>        
     </header>
     <nav>
         <a href="#">Inicio</a>
@@ -42,6 +44,30 @@
     </main>
     <section>
         <h2>Contacto</h2> 
+        <form>
+            <fieldset>
+                <legend>Llena tus datos de contacto</legend>
+                <div>
+                    <label>Nombre Completo</label>
+                    <input type="text" placeholder="Coloca Tu Nombre">
+                </div>
+                <div>
+                    <label>Telefono</label>
+                    <input type="tel" placeholder="Telefono">
+                </div>
+                <div>
+                    <label>Email</label>
+                    <input type="email" placeholder="Tu coreo electronico">
+                </div>
+                <div>
+                    <label>Mensaje</label>
+                    <textarea name="" id=""></textarea>               
+                </div>
+                <div>
+                    <input type="submit" value="Enviar">
+                </div>
+            </fieldset>
+        </form>
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-address-book"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M20 6v12a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2" /><path d="M10 16h6" /><path d="M11 11a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" /><path d="M4 8h3" /><path d="M4 12h3" /><path d="M4 16h3" /></svg>       
     </section>
     <footer>
